@@ -83,8 +83,7 @@
                         android:text="@string/type_url"
                         android:textColor="@color/ios_text_primary"
                         app:chipBackgroundColor="@color/ios_card_elevated"
-                        app:chipStrokeColor="@color/ios_separator"
-                        android:checked="true" />
+                        app:chipStrokeColor="@color/ios_separator" />
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chipText"
@@ -94,7 +93,8 @@
                         android:text="@string/type_text"
                         android:textColor="@color/ios_text_primary"
                         app:chipBackgroundColor="@color/ios_card_elevated"
-                        app:chipStrokeColor="@color/ios_separator" />
+                        app:chipStrokeColor="@color/ios_separator"
+                        android:checked="true" />
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chipWifi"

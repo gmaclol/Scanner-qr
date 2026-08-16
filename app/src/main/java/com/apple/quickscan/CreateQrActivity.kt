@@ -34,7 +34,7 @@ class CreateQrActivity : AppCompatActivity() {
         URL, TEXT, WIFI, CONTACT, PHONE, EMAIL, SMS
     }
 
-    private var selectedType: QrType = QrType.URL
+    private var selectedType: QrType = QrType.TEXT
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,9 +47,10 @@ class CreateQrActivity : AppCompatActivity() {
         setupTextWatchers()
         setupActionButtons()
 
-        // Set default URL
-        binding.etInput1.setText("https://apple.com")
-        updateInputsForType(QrType.URL)
+        // Azione preferita di default: Testo libero (vuoto)
+        binding.chipText.isChecked = true
+        binding.etInput1.setText("")
+        updateInputsForType(QrType.TEXT)
     }
 
     private fun setupChips() {
@@ -155,6 +156,9 @@ class CreateQrActivity : AppCompatActivity() {
             val bitmap = QrGeneratorHelper.generateQrBitmap(currentContent, size = 600)
             currentBitmap = bitmap
             binding.ivQrPreview.setImageBitmap(bitmap)
+        } else {
+            currentBitmap = null
+            binding.ivQrPreview.setImageDrawable(null)
         }
     }
 
@@ -164,10 +168,18 @@ class CreateQrActivity : AppCompatActivity() {
         }
 
         binding.btnShareQr.setOnClickListener {
+            if (currentBitmap == null || currentContent.isBlank()) {
+                Toast.makeText(this, "Inserisci prima del testo per generare il QR", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
             shareQrImageAndText()
         }
 
         binding.btnSaveGallery.setOnClickListener {
+            if (currentBitmap == null || currentContent.isBlank()) {
+                Toast.makeText(this, "Inserisci prima del testo per generare il QR", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
             saveQrToGallery()
         }
 
@@ -176,6 +188,8 @@ class CreateQrActivity : AppCompatActivity() {
                 ClipboardHelper.copyToClipboard(this, currentContent)
                 Toast.makeText(this, getString(R.string.copied_to_clipboard), Toast.LENGTH_SHORT).show()
                 saveToHistory()
+            } else {
+                Toast.makeText(this, "Inserisci prima del testo da copiare", Toast.LENGTH_SHORT).show()
             }
         }
     }
