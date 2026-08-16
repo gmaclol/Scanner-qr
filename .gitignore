@@ -1,15 +1,15 @@
-*.iml
-.gradle
-/local.properties
-/.idea
+﻿*.iml
+.gradle/
+.idea/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
 local.properties
 
-# Secrets and Keys
+# Secrets and Keys (MANDATORIO da Org.md)
 KEYS.md
 keystore.properties
 *.jks
