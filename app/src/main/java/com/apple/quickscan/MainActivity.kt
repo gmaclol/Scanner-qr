@@ -14,6 +14,8 @@ import android.view.animation.OvershootInterpolator
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 import androidx.camera.core.Camera
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageAnalysis
@@ -78,6 +80,27 @@ class MainActivity : AppCompatActivity() {
         setupTopBar()
         setupDrawer()
         checkCameraPermissionAndStart()
+        checkForUpdatesOnStartup()
+    }
+
+    private fun checkForUpdatesOnStartup() {
+        lifecycleScope.launch {
+            val updateManager = UpdateManager(this@MainActivity)
+            updateManager.checkForUpdates(
+                onUpdateAvailable = { onlineVersion, downloadUrl, releaseNotes ->
+                    if (!isFinishing) {
+                        com.google.android.material.dialog.MaterialAlertDialogBuilder(this@MainActivity)
+                            .setTitle("Aggiornamento Disponibile 🚀")
+                            .setMessage("È disponibile la nuova versione $onlineVersion.\n\n$releaseNotes")
+                            .setPositiveButton("Scarica & Installa") { _, _ ->
+                                updateManager.downloadAndInstall(downloadUrl)
+                            }
+                            .setNegativeButton("Più tardi", null)
+                            .show()
+                    }
+                }
+            )
+        }
     }
 
     private fun setupTopBar() {
