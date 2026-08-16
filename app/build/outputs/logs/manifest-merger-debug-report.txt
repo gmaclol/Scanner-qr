@@ -1,0 +1,594 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:61:9-69:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:65:13-47
+	android:authorities
+		INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:63:13-64
+	android:exported
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:62:13-62
+manifest
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:2:1-73:12
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6958720a2b45e9d145e106962e69f3b2\workspace\transformed\viewbinding-8.13.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\279238c0e3923e2c27326353154c22bd\workspace\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e5b2d077c9ed02d34d11b363d86019da\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\4f5209639d0f83181ed1a448d571a33d\workspace\transformed\camera-video-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\29343f001724ad60fcc64ddab6f0a40d\workspace\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d6acf5ff24e6e9e279db873f4aa7c363\workspace\transformed\camera-core-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\92cca1bd9ee8a37502579626603df3c9\workspace\transformed\camera-view-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9debe1562c57a57b33d662c8ea97f72d\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\c4a7c161c93709b8d553a7a9b9f62ec0\workspace\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\69d8700876bb786ff087a57ba80d0a7e\workspace\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\993b472a349789bd787950842d589e69\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\2f033ae84c1bf5fa9ab09345c70c0201\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\7040ea2fdb52ce433157ba15bc69ce84\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\10be5f7a455f2a5e333f50de7adb5d0c\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\54647aae3782efd6bb8279a07b0edf61\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\4d5982f0600138e7b7ae66068ec77e78\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\21c12ace60539e6887603d90aa0426d3\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a1bfc3510cac693bbf3327e714d50b93\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\04173d0faacc1495ccc4e567bfe0f51b\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\f32ef3aca1b77cfae73bc5b8dcd860ee\workspace\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b181460a865fbe5a7e1d015fc825ba0e\workspace\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb85fd3d08b18daf1412040c8def9a2e\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\fa5bcdfe88bf3a1bbbb23c21c13bdff5\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5923f8f5b08dd1a001804c435975f936\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\78c2f5e3eca5ccaeb81d7083bd14d6df\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9d8157a9e67642bdce7e94f452056aa3\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\8d7be129fd82dcd6532c126686c39c73\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-ktx:1.10.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\0e4b37f703beed787dafae6c66be4c53\workspace\transformed\activity-ktx-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e446529d515fe62d21b7bc2c7c3b937f\workspace\transformed\activity-1.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\3d936c0227394eadf19acb678c45bbc9\workspace\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\34ac10caf8714592109661373ea54f42\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\2a2ea279400717dbfdf92247b67a5ea6\workspace\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bfb4f671eb7d7a5b3f10b8544b5d25f0\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\c30d91ec18166a1ca16995e83c236ecf\workspace\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1e4165c60821da94a1680cd8427e22b6\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\ccc25ea3e04c816c0c2437ee24233f9c\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9452f25c8307f2148cbf1c1ee153f022\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\09255a045e10eab2d1f3ed5ed0913e3d\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\59fd2636e1c97b749886bc715106d5dc\workspace\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d1c6ec95746e9af2fca5be7e99230769\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\338c375dd3cf3423608632120b91fe09\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\621d266fa9fdbcab52909fbc18c6aa4b\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6c8efac046109489f5f0c7dc50fa71c8\workspace\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\ae0573d33fe48b6322843af9d880771c\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\7df2b79a172ac9814dbd0ae0c03cc33c\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\337a22c46fa3458584076fd36ad40856\workspace\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bbc03af68b410cad08584733b5e39afb\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\99d9272f25a740b0a3334d1282eed41a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a23ad1ac61a23ad5edba1be04ce599d7\workspace\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\dccaddb98011269a3890bef8138783a6\workspace\transformed\firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bf59b80b019f7d88a605bc6bcd86e910\workspace\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\49a76e455e2449c8d9fdbb9122837ae2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\3e2bcb586a670b72995d2c6bbc7c9e26\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\576371664ff0c3ce4123e4889512a45c\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5c55322feb5f840964d6761835e43ec6\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6ee3f88e0c2c14e34073039cb1a620da\workspace\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:6:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:7:22-64
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:10:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:13:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:16:9-53
+application
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:19:5-71:19
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:19:5-71:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\279238c0e3923e2c27326353154c22bd\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\279238c0e3923e2c27326353154c22bd\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e5b2d077c9ed02d34d11b363d86019da\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e5b2d077c9ed02d34d11b363d86019da\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d6acf5ff24e6e9e279db873f4aa7c363\workspace\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d6acf5ff24e6e9e279db873f4aa7c363\workspace\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b181460a865fbe5a7e1d015fc825ba0e\workspace\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b181460a865fbe5a7e1d015fc825ba0e\workspace\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\338c375dd3cf3423608632120b91fe09\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\338c375dd3cf3423608632120b91fe09\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\99d9272f25a740b0a3334d1282eed41a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\99d9272f25a740b0a3334d1282eed41a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6ee3f88e0c2c14e34073039cb1a620da\workspace\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6ee3f88e0c2c14e34073039cb1a620da\workspace\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:24:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:22:9-54
+	android:roundIcon
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:25:9-54
+	tools:targetApi
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:28:9-29
+	android:icon
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:27:9-47
+	android:dataExtractionRules
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:21:9-65
+activity#com.apple.quickscan.MainActivity
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:30:9-40:20
+	android:screenOrientation
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:33:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:35:13-56
+	android:exported
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:34:13-51
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:38:27-74
+activity#com.apple.quickscan.CreateQrActivity
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:42:9-47:58
+	android:screenOrientation
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:45:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:47:13-55
+	android:exported
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:44:13-37
+	android:theme
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:46:13-51
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:43:13-45
+activity#com.apple.quickscan.HistoryActivity
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:49:9-53:54
+	android:screenOrientation
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:52:13-49
+	android:exported
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:51:13-37
+	android:theme
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:53:13-51
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:50:13-44
+activity#com.apple.quickscan.SettingsActivity
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:55:9-59:54
+	android:screenOrientation
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:58:13-49
+	android:exported
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:57:13-37
+	android:theme
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:59:13-51
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:56:13-45
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:66:13-68:54
+	android:resource
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:68:17-51
+	android:name
+		ADDED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml:67:17-67
+uses-sdk
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6958720a2b45e9d145e106962e69f3b2\workspace\transformed\viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6958720a2b45e9d145e106962e69f3b2\workspace\transformed\viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\279238c0e3923e2c27326353154c22bd\workspace\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\279238c0e3923e2c27326353154c22bd\workspace\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e5b2d077c9ed02d34d11b363d86019da\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e5b2d077c9ed02d34d11b363d86019da\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\4f5209639d0f83181ed1a448d571a33d\workspace\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\4f5209639d0f83181ed1a448d571a33d\workspace\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\29343f001724ad60fcc64ddab6f0a40d\workspace\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\29343f001724ad60fcc64ddab6f0a40d\workspace\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d6acf5ff24e6e9e279db873f4aa7c363\workspace\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d6acf5ff24e6e9e279db873f4aa7c363\workspace\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\92cca1bd9ee8a37502579626603df3c9\workspace\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\92cca1bd9ee8a37502579626603df3c9\workspace\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9debe1562c57a57b33d662c8ea97f72d\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9debe1562c57a57b33d662c8ea97f72d\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\c4a7c161c93709b8d553a7a9b9f62ec0\workspace\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\c4a7c161c93709b8d553a7a9b9f62ec0\workspace\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\69d8700876bb786ff087a57ba80d0a7e\workspace\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\69d8700876bb786ff087a57ba80d0a7e\workspace\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\993b472a349789bd787950842d589e69\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\993b472a349789bd787950842d589e69\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\2f033ae84c1bf5fa9ab09345c70c0201\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\2f033ae84c1bf5fa9ab09345c70c0201\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\7040ea2fdb52ce433157ba15bc69ce84\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\7040ea2fdb52ce433157ba15bc69ce84\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\10be5f7a455f2a5e333f50de7adb5d0c\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\10be5f7a455f2a5e333f50de7adb5d0c\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\54647aae3782efd6bb8279a07b0edf61\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\54647aae3782efd6bb8279a07b0edf61\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\4d5982f0600138e7b7ae66068ec77e78\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\4d5982f0600138e7b7ae66068ec77e78\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\21c12ace60539e6887603d90aa0426d3\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\21c12ace60539e6887603d90aa0426d3\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a1bfc3510cac693bbf3327e714d50b93\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a1bfc3510cac693bbf3327e714d50b93\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\04173d0faacc1495ccc4e567bfe0f51b\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\04173d0faacc1495ccc4e567bfe0f51b\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\f32ef3aca1b77cfae73bc5b8dcd860ee\workspace\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\f32ef3aca1b77cfae73bc5b8dcd860ee\workspace\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b181460a865fbe5a7e1d015fc825ba0e\workspace\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b181460a865fbe5a7e1d015fc825ba0e\workspace\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb85fd3d08b18daf1412040c8def9a2e\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb85fd3d08b18daf1412040c8def9a2e\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\fa5bcdfe88bf3a1bbbb23c21c13bdff5\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\fa5bcdfe88bf3a1bbbb23c21c13bdff5\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5923f8f5b08dd1a001804c435975f936\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5923f8f5b08dd1a001804c435975f936\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\78c2f5e3eca5ccaeb81d7083bd14d6df\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\78c2f5e3eca5ccaeb81d7083bd14d6df\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9d8157a9e67642bdce7e94f452056aa3\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9d8157a9e67642bdce7e94f452056aa3\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\8d7be129fd82dcd6532c126686c39c73\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\8d7be129fd82dcd6532c126686c39c73\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\0e4b37f703beed787dafae6c66be4c53\workspace\transformed\activity-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\0e4b37f703beed787dafae6c66be4c53\workspace\transformed\activity-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e446529d515fe62d21b7bc2c7c3b937f\workspace\transformed\activity-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\e446529d515fe62d21b7bc2c7c3b937f\workspace\transformed\activity-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\3d936c0227394eadf19acb678c45bbc9\workspace\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\3d936c0227394eadf19acb678c45bbc9\workspace\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\34ac10caf8714592109661373ea54f42\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\34ac10caf8714592109661373ea54f42\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\2a2ea279400717dbfdf92247b67a5ea6\workspace\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\2a2ea279400717dbfdf92247b67a5ea6\workspace\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bfb4f671eb7d7a5b3f10b8544b5d25f0\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bfb4f671eb7d7a5b3f10b8544b5d25f0\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\c30d91ec18166a1ca16995e83c236ecf\workspace\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\c30d91ec18166a1ca16995e83c236ecf\workspace\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1e4165c60821da94a1680cd8427e22b6\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1e4165c60821da94a1680cd8427e22b6\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\ccc25ea3e04c816c0c2437ee24233f9c\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\ccc25ea3e04c816c0c2437ee24233f9c\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9452f25c8307f2148cbf1c1ee153f022\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9452f25c8307f2148cbf1c1ee153f022\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\09255a045e10eab2d1f3ed5ed0913e3d\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\09255a045e10eab2d1f3ed5ed0913e3d\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\59fd2636e1c97b749886bc715106d5dc\workspace\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\59fd2636e1c97b749886bc715106d5dc\workspace\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d1c6ec95746e9af2fca5be7e99230769\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d1c6ec95746e9af2fca5be7e99230769\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\338c375dd3cf3423608632120b91fe09\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\338c375dd3cf3423608632120b91fe09\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\621d266fa9fdbcab52909fbc18c6aa4b\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\621d266fa9fdbcab52909fbc18c6aa4b\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6c8efac046109489f5f0c7dc50fa71c8\workspace\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6c8efac046109489f5f0c7dc50fa71c8\workspace\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\ae0573d33fe48b6322843af9d880771c\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\ae0573d33fe48b6322843af9d880771c\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\7df2b79a172ac9814dbd0ae0c03cc33c\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\7df2b79a172ac9814dbd0ae0c03cc33c\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\337a22c46fa3458584076fd36ad40856\workspace\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\337a22c46fa3458584076fd36ad40856\workspace\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bbc03af68b410cad08584733b5e39afb\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bbc03af68b410cad08584733b5e39afb\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\99d9272f25a740b0a3334d1282eed41a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\99d9272f25a740b0a3334d1282eed41a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a23ad1ac61a23ad5edba1be04ce599d7\workspace\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a23ad1ac61a23ad5edba1be04ce599d7\workspace\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\dccaddb98011269a3890bef8138783a6\workspace\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\dccaddb98011269a3890bef8138783a6\workspace\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bf59b80b019f7d88a605bc6bcd86e910\workspace\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\bf59b80b019f7d88a605bc6bcd86e910\workspace\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\49a76e455e2449c8d9fdbb9122837ae2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\49a76e455e2449c8d9fdbb9122837ae2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\3e2bcb586a670b72995d2c6bbc7c9e26\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\3e2bcb586a670b72995d2c6bbc7c9e26\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\576371664ff0c3ce4123e4889512a45c\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\576371664ff0c3ce4123e4889512a45c\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5c55322feb5f840964d6761835e43ec6\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5c55322feb5f840964d6761835e43ec6\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6ee3f88e0c2c14e34073039cb1a620da\workspace\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\6ee3f88e0c2c14e34073039cb1a620da\workspace\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Rosti\Desktop\Scanner qr\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d6acf5ff24e6e9e279db873f4aa7c363\workspace\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\d6acf5ff24e6e9e279db873f4aa7c363\workspace\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\06bc5d4a897337f04ad610d400c4119f\workspace\transformed\camera-camera2-1.4.1\AndroidManifest.xml:31:17-103
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1c374756caf3b1bc992a90e76ff1afaf\workspace\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\9899b351b27f32c7efdcd32db425a6a8\workspace\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\eb56fcb8601c1d5735d05fa895e122aa\workspace\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\338c375dd3cf3423608632120b91fe09\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\338c375dd3cf3423608632120b91fe09\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\85ec37696d8f6cd2796d54fe61ec560b\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\b8b716969a60508efca7d6bb4cac24ad\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\973b7947b3956813174e61f6230c84bf\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.apple.quickscan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.apple.quickscan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\39f1f5b853d8840f0be4cc653086d4bd\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\42c37def055b592bfa66906dc828806f\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\a5c1a716b8aecea182be5b3f8c962ae6\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\1150ac009376464dcd44681be6ac046a\workspace\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Rosti\.gradle\caches\9.3.1\transforms\5348a5dd49cbc663df90861ab78c6737\workspace\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132

@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with OLED Dark background and Apple aesthetics -->
+    <style name="Theme.QuickScan" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/apple_blue</item>
+        <item name="colorOnPrimary">@color/ios_text_primary</item>
+        <item name="colorPrimaryContainer">@color/ios_card_elevated</item>
+        <item name="colorOnPrimaryContainer">@color/ios_text_primary</item>
+        
+        <item name="colorSecondary">@color/apple_blue_dark</item>
+        <item name="colorOnSecondary">@color/ios_text_primary</item>
+        <item name="colorSurface">@color/ios_card_dark</item>
+        <item name="colorOnSurface">@color/ios_text_primary</item>
+        <item name="android:colorBackground">@color/ios_bg_black</item>
+        <item name="colorOnBackground">@color/ios_text_primary</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <item name="bottomSheetDialogTheme">@style/Theme.QuickScan.BottomSheetDialog</item>
+    </style>
+
+    <style name="Theme.QuickScan.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalBottomSheetStyle</item>
+    </style>
+
+    <style name="ModalBottomSheetStyle" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/ios_card_dark</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.iOSRoundedCard</item>
+    </style>
+
+    <style name="ShapeAppearance.iOSRoundedCard" parent="ShapeAppearance.Material3.Corner.ExtraLarge">
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.iOSCard" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.iOSPill" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

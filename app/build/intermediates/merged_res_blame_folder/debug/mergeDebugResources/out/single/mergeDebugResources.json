@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/layout_item_history.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_flash_on.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_flash_on.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_barcode.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_barcode.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_input_field.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_input_field.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/layout_bottom_sheet_scan_result.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/layout/bottom_sheet_scan_result.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_glass_card.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_glass_card.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_drawer_panel.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_drawer_panel.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_delete.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_chip_selected.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_chip_selected.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_settings.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_phone.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_sms.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_sms.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_qr_code.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_qr_code.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/layout_activity_settings.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_link.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_link.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_email.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_wifi.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_wifi.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_back.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_history.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_check_circle.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_contact.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_contact.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_glass_pill.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_glass_pill.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/layout_activity_create_qr.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_create_qr.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_glass_circle_btn.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_glass_circle_btn.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_close.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_chip_unselected.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_chip_unselected.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_menu.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_apple_secondary_btn.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_apple_secondary_btn.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_share.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/layout_activity_main.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/layout_drawer_content.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/layout/drawer_content.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/xml_backup_rules.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_bg_apple_button.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/bg_apple_button.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/layout_activity_history.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/xml_file_paths.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_flash_off.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_flash_off.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_gallery.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_gallery.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_copy.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_copy.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.apple.quickscan.app-main-46:/drawable/ic_launcher_foreground.xml"
+    }
+]

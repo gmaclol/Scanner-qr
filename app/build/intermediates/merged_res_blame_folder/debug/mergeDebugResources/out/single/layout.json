@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.apple.quickscan.app-mergeDebugResources-43:/layout/activity_create_qr.xml",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_create_qr.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-mergeDebugResources-43:/layout/item_history.xml",
+        "source": "com.apple.quickscan.app-main-46:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-mergeDebugResources-43:/layout/bottom_sheet_scan_result.xml",
+        "source": "com.apple.quickscan.app-main-46:/layout/bottom_sheet_scan_result.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-mergeDebugResources-43:/layout/activity_history.xml",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-mergeDebugResources-43:/layout/drawer_content.xml",
+        "source": "com.apple.quickscan.app-main-46:/layout/drawer_content.xml"
+    },
+    {
+        "merged": "com.apple.quickscan.app-mergeDebugResources-43:/layout/activity_settings.xml",
+        "source": "com.apple.quickscan.app-main-46:/layout/activity_settings.xml"
+    }
+]

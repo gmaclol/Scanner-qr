@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_glass_card"
+    android:paddingStart="20dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="28dp">
+
+    <!-- iOS Drag Handle -->
+    <View
+        android:layout_width="36dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_glass_pill"
+        android:backgroundTint="@color/ios_separator" />
+
+    <!-- Format Tag & Status -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/tvFormatBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_chip_selected"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            android:text="QR Code"
+            android:textColor="@color/ios_text_primary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_check_circle"
+            android:layout_marginEnd="6dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copiato negli appunti"
+            android:textColor="@color/apple_green"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Content Box -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input_field"
+        android:layout_marginBottom="18dp">
+
+        <TextView
+            android:id="@+id/tvScanContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="6"
+            android:scrollbars="vertical"
+            android:text="https://apple.com"
+            android:textColor="@color/ios_text_primary"
+            android:textSize="15sp"
+            android:textIsSelectable="true" />
+    </FrameLayout>
+
+    <!-- Primary Action Button (e.g. Open Link / Connect) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPrimaryAction"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/open_link"
+        android:textColor="@color/ios_text_primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="16dp"
+        app:backgroundTint="@color/apple_blue"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Secondary Actions Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="12dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnShare"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/share"
+            android:textColor="@color/ios_text_primary"
+            android:textSize="14sp"
+            app:cornerRadius="14dp"
+            app:icon="@drawable/ic_share"
+            app:iconTint="@color/ios_text_primary"
+            app:backgroundTint="@color/ios_card_elevated"
+            android:layout_marginEnd="6dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCopyAgain"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/copy"
+            android:textColor="@color/ios_text_primary"
+            android:textSize="14sp"
+            app:cornerRadius="14dp"
+            app:icon="@drawable/ic_copy"
+            app:iconTint="@color/ios_text_primary"
+            app:backgroundTint="@color/ios_card_elevated"
+            android:layout_marginStart="6dp" />
+    </LinearLayout>
+
+    <!-- Rescan / Close Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRescan"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="@string/rescan"
+        android:textColor="@color/ios_text_secondary"
+        android:textSize="14sp" />
+
+</LinearLayout>
